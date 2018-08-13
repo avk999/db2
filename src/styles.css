@@ -1,0 +1,230 @@
+
+body {
+    background-color: #082C2C;/* #14202C; */
+}
+
+.alert {
+    background-color: #4d2323;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+
+.battlebox {
+    border: solid ;
+    border-width: 1px;
+    border-color:antiquewhite;
+    padding:10px;
+}
+
+.moreorless {
+    width:10%;
+    display: inline;
+    font-size:200%;
+    font-weight: bolder;
+    margin-top:10px;
+    
+}
+
+.redder {
+    color:red;
+}
+
+.greener {
+    color:greenyellow;
+}
+
+.battleid {
+    width: 50%;
+    float: left;
+    color: darkgray;
+}
+
+.timeleft {
+    width:50%;
+    float:right;
+    color: #b4b4b4;
+}
+
+.cosmo {
+    color: #FB9320;
+}
+.humanoid {
+    color: #bc4590;
+}
+
+.nyoko {
+    color: green;
+}
+
+.genex {
+    color: #7777f1;
+}
+
+
+.ownbase {
+    width:50%;
+    float:left;
+     white-space: nowrap; 
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+.oppobase {
+    width:50%;
+     white-space: nowrap; 
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+.ownplayer {
+    width:50%;
+    float:left;
+}
+
+.oppoplayer {
+    width:50%;
+    float:right;
+}
+
+.ownmods {
+    width:50%;
+    float:left;
+    color: darkgray;
+}
+
+.oppomods {
+    width:50%;
+    float:right;
+    color: darkgray;
+}
+
+.timemark {
+    color: antiquewhite;
+}
+
+.dark {
+    color:darkgray;
+}
+
+
+
+.ownmltng {
+    width:50%;
+    float:left;
+    color:red;
+}
+
+.oppomltng {
+    width:50%;
+    float:right;
+    color:red;
+}
+
+.ownstrength {
+    width:40%;
+    float:left;
+    font-weight: bolder;
+    font-size:150%;
+    margin-top:10px;
+}
+
+.oppostrength {
+    width:50%;
+    float:right;
+    font-weight: bolder;
+    font-size:150%;
+    margin-top:10px;
+}
+
+.isdone {
+    width:50%;
+    float:left;
+    color: darkgray;
+}
+
+.in_by {
+    width:100%;
+    float:left;
+    color: darkgray;
+}
+
+
+.updatestatus {
+    width:50%;
+    float:right;
+    color: darkgray
+}
+
+.nextupdate {
+    width:50%;
+    float: left;
+    color: darkgray;
+}
+
+.wallclock {
+    text-align: center;
+    color: #68e6e6;
+}
+
+.upcoming {
+    color:antiquewhite;
+    border-color:antiquewhite;
+    border-width: 1px;
+    border:solid;
+}
+
+.fighters {
+    margin-left:30px;
+    font-weight: bold;
+}
+
+.fatal {
+    color: yellow;
+    font-size: 200%;
+}
+
+.log {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.battlelog {
+      color:antiquewhite;
+    border-color:antiquewhite;
+    border-width: 1px;
+    border-style:solid;  
+    padding:10px;
+}
+
+.loghead {
+    border-bottom-style: dashed;
+    margin-bottom: 25px;
+    font-weight: bold;
+    border-bottom-width: 1px;
+}
+
+
+.logbody {
+    height: 200px;
+    overflow-y: auto;
+}
+
+.syslog {
+    max-height: 500px;
+    overflow-y: scroll;
+    color:beige;
+    
+}
+
+.msbox {
+    margin-top:5px;
+    margin-bottom:5px;
+}

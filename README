@@ -1,0 +1,5 @@
+install as usual.
+You'll need to setup a CORS proxy on your server (in src/index.js, currently
+set to '/gq'). Don't ask me about the target server!
+
+

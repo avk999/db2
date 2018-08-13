@@ -1,0 +1,4 @@
+call ClusterDetails on demand
+Inactivity detection (to stop requests to server)
+Try to find any reliable way to detect battle end (partially done)
+call BaseDetails on demand and calculate free vectors, slots, etc, display in a modal
