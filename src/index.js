@@ -1,6 +1,6 @@
 import './styles.css';
 import $ from  'jquery';
-const grapqlurl='https://delta.bedelaar.org/gq';
+const grapqlurl='/gq';
 import Lokka from 'lokka'
 import HttpTransport from 'lokka-transport-http';
 const Transport=new HttpTransport(grapqlurl,{'credentials':false})
